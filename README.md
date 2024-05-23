@@ -38,7 +38,7 @@ This is a simple weather application written in Python. The app fetches and disp
    
 3.  **Run the app:**
     
-    `python main.py` 
+    - `python main.py` 
     
 4.  **Enter a location:**
     
