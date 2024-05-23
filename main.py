@@ -1,5 +1,6 @@
 from weather_api import get_weather, get_weather_details, Weather
 
+
 def main():
     user_city: str = input('Enter city name: ')
 

@@ -1,10 +1,7 @@
-from typing import Final
 import json
 import requests
 from model import Weather, dt
-
-API_KEY: Final[str] = ''
-BASE_URL: Final[str] = 'https://api.openweathermap.org/data/2.5/forecast'
+from config import API_KEY, BASE_URL
 
 
 def get_weather(city_name: str, mock: bool = True) -> dict:
